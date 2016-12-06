@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
 
-  s.homepage     = 'https://github.com/jacquespupponi/JsonStoreAdp'
+  s.homepage     = 'https://github.com/ibm-bluemix-mobile-services/jsonstore-ios'
 
   s.license      = { :type => 'Apache License, Version 2.0', :file => 'LICENSE'}
 
   s.author       = { 'IBM Bluemix Mobile Services' => 'mobilesdk@us.ibm.com', 'Anton Aleksandrov ' => 'antona@us.ibm.com', 'Nana Amfo' => 'noamfo@us.ibm.com' }
   
-  s.source       = { :git => 'https://github.com/jacquespupponi/JsonStoreAdp.git', :tag => '1.3.0'}
+  s.source       = { :git => 'https://github.com/ibm-bluemix-mobile-services/jsonstore-ios.git', :tag => '1.3.0'}
 
   s.source_files  = 'JSONStore', 'JSONStore/**/*.{h,m}'
 
