@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'JSONStore', 'JSONStore/**/*.{h,m}'
   s.exclude_files = 'JSONStore/Exclude'
   s.requires_arc = true
-  s.module_map = 'JSONStore'
+  s.module_map = 'module.modulemap'
   s.library = 'sqlite3'
   
 
