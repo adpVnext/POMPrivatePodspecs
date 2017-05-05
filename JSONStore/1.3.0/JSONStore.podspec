@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
    #s.source       = { :git => 'https://github.com/ibm-bluemix-mobile-services/jsonstore-ios.git', :tag => '1.3.0'}
    s.source       = { :git => 'https://github.com/adpVnext/jsonstore-ios.git', :branch => 'patch-1'}
 
-   s.public_header_files = 'JSONStore/JSONStore.h','JSONStore/JSONStoreOpenOptions.h','JSONStore/JSONStoreCollection.h','JSONStore/JSONStoreAddOptions.h','JSONStore/JSONStoreQueryPart.h','JSONStore/JSONStoreQueryOptions.h','JSONStore/JSONStoreConstants.h','JSONStore/JSONStoreSecurityManager.h','JSONStore/JSONStoreValidator.h,'JSONStore/JSONStoreSecurityUtils.h'
+   s.public_header_files = 'JSONStore/JSONStore.h','JSONStore/JSONStoreOpenOptions.h','JSONStore/JSONStoreCollection.h','JSONStore/JSONStoreAddOptions.h','JSONStore/JSONStoreQueryPart.h','JSONStore/JSONStoreQueryOptions.h','JSONStore/JSONStoreConstants.h','JSONStore/JSONStoreSecurityManager.h','JSONStore/JSONStoreValidator.h','JSONStore/JSONStoreSecurityUtils.h'
 
    s.source_files  = 'JSONStore', 'JSONStore/**/*.{h,m}'
    s.exclude_files = 'JSONStore/Exclude'
