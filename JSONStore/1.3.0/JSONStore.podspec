@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
    #s.source       = { :git => 'https://github.com/ibm-bluemix-mobile-services/jsonstore-ios.git', :tag => '1.3.0'}
    s.source       = { :git => 'https://github.com/adpVnext/jsonstore-ios.git', :branch => 'patch-1'}
 
-   s.public_header_files = 'JSONStore/JSONStoreFramework.h'
+   #s.public_header_files = 'JSONStore/JSONStoreFramework.h'
 
    s.source_files  = 'JSONStore', 'JSONStore/**/*.{h,m}'
    s.exclude_files = 'JSONStore/Exclude'
