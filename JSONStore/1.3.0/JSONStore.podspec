@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.author       = { 'IBM Bluemix Mobile Services' => 'mobilesdk@us.ibm.com', 'Anton Aleksandrov ' => 'antona@us.ibm.com', 'Nana Amfo' => 'noamfo@us.ibm.com' }
   
-  s.source       = { :git => 'http://tfs2012pro-v1:8080/tfs/DSICW/A352K%20-%20POM%20GIT/_git/jsonstore-ios-master', :tag => '1.3.0'}
+  s.source       = { :git => 'http://tfs2012pro-v1:8080/tfs/DSICW/A352K%20-%20POM%20GIT/_git/jsonstore-ios-master'}
 
   #s.source_files   =  'JSONStore', 'JSONStore/**/*.{h,m}'
   s.source_files  = 'JSONStore/JSONStore/*.{h,m}'
